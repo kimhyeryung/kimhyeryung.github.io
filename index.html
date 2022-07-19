@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/portfolio.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    
+    <title>김혜령 portfolio</title>
+</head>
+<body>
+    <!------figure------>
+    <div class="figure">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+        <div class="circle-5"></div>
+        <div class="circle-6"></div>
+        <div class="circle-7"></div>
+        <div class="circle-8"></div>
+        <div class="circle-9"></div>
+        <div class="circle-10"></div>
+    </div>
+ 
+    <div class="circle"></div>
+
+    <!-------------------- header -------------------->
+    <header>
+        <div class="container">
+            <div class="menu-flex">
+                <div class="github">
+                    <a href="#"><img src="./image/github.png" alt="깃허브로고"></a>
+                </div> <!--github-->
+        
+                <nav class="menu">
+                    <ul id="gnb">
+                        <li><a href="#">ABOUT ME</a></li>
+                        <li><a href="#design-title">DESIGN</a></li>
+                        <li><a href="#web-title">WED</a></li>
+                        <li><a href="#video-title">VIDEO</a></li>
+                    </ul><!--gnb-->
+                </nav><!--menu-->
+            </div><!--menu-flex-->
+        </div><!--container-->
+
+        <ul id="side-menu">
+            <li><a href="#design-title">Design</a></li>
+            <li><a href="#web-title">Web</a></li>
+            <li><a href="#video-title">Video</a></li>
+        </ul><!--side-menu-->
+    </header>
+
+
+
+    <!-------------------- main -------------------->
+    <main>
+        <!------background------>
+        <div class="background">
+            <div class="profile">
+                <img src="./image/profile.png" alt="프로필">
+            </div><!--profile-->
+
+            <div class="introduce">
+                <h1>김혜령 Designer Portfolio</h1>
+                <br><br><br>
+                <p>
+                    감각적인 눈으로 원하는 디자인을 캐치해내는<br>
+                    소통하는 디자이너 김혜령입니다.<br>
+                    <br>
+                    그래픽, UX/UI, 일러스트, 편집디자인,<br>
+                    모션그래픽 등 작업할 수 있는 스펙트럼이 넓고<br>
+                    새로운 것을 배우고 도전하는 것을 좋아합니다.<br>
+                    <br>
+                    특정 카테고리로 디자이너로서의 정체성을 정의하기 보다는<br>
+                    궁극적으로 사람들에게 유의미한 가치를 전달할 수 있는<br>
+                    것을 목표로 다양한 디자인 작업을 하고있습니다.<span class="cursor">ㅣ</span><br>
+                </p>
+            </div><!--introduce-->
+
+            <div class="circle-box">
+                <div id="round" class="circle-1"></div>
+                <div id="round" class="circle-2"></div>
+                <div id="round" class="circle-3"></div>
+                <div id="round" class="circle-4"></div>
+                <div id="round" class="circle-5"></div>
+            </div><!--circle-box-->
+        </div><!--background-->
+
+
+
+        <!------button------>
+        <div class="container">
+            <div class="button-flex">
+                <div id="hyper-box" class="button-design">
+                    <h3>Design</h3>
+                    <img class="video-img" src="./image/menu_d.jpg" alt="디자인">
+                    <a  href="#design-title" class="dover"><img src="./media/video_d.gif" alt="디자인움짤"></a>
+                </div><!--design-->
+
+                <div id="hyper-box" class="button-web">
+                    <h3>Web</h3>
+                    <img class="video-img" src="./image/menu_w.jpg" alt="웹">
+                    <a href="#web-title" class="dover"><img src="./media/video_w.gif" alt="웹움짤"></a>
+                </div><!--web-->
+
+                <div id="hyper-box" class="button-video">
+                    <h3>Video</h3>
+                    <img class="video-img" src="./image/menu_v.jpg" alt="비디오">
+                    <a  href="#video-title" class="dover"><img src="./media/video_v.gif" alt="비디오움짤"></a>
+                </div><!--video-->
+            </div><!--button-flex-->
+        </div><!--container-->
+
+
+
+        <!------skill------>
+        <div class="container">
+            <div class="skill">
+                <div class="title">
+                    <span class="span-1"></span>
+                    <h2>skill</h2>
+                    <span class="span-2"></span>
+                </div>
+
+                <div class="skill-flex">
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_ps.png" alt="포토샵아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_ai.png" alt="일러스트아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_id.png" alt="인디자인아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="50"></span>
+                                </div>
+                            </div>
+                        </div><!--skill-icon-->
+        
+                        <div class="skill-icon">
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_pr.png" alt="프리미어프로아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_ae.png" alt="에프터이펙트아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="75"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_xd.png" alt="엑스디아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="50"></span>
+                                </div>
+                            </div>
+                        </div><!--skill-icon-->
+                    </div><!--skill-box-->
+
+                    <div class="skill-box">
+                        <div class="skill-icon">
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_html.png" alt="html아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_css.png" alt="css아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_js.png" alt="자바스크립트아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="50"></span>
+                                </div>
+                            </div>
+                        </div><!--skill-icon-->
+        
+                        <div class="skill-icon">
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_scss.png" alt="세스아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="100"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_jquery.png" alt="제이쿼리아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="75"></span>
+                                </div>
+                            </div>
+        
+                            <div class="icons">
+                                <div class="icon-img">
+                                    <img src="./image/icon_react.png" alt="리엑트아이콘">
+                                </div>
+                                <div class="skill-bar">
+                                    <span class="bar"></span>
+                                    <span class="gauge" per="50"></span>
+                                </div>
+                            </div>
+                        </div><!--skill-icon-->
+                    </div><!--skill-box-->
+                </div><!--skill-flex-->
+            </div><!--skill-->
+        </div><!--container-->
+
+
+
+        <!------design------>
+        <div class="container">
+            <div class="design">
+                <div class="title">
+                    <span class="span-1"></span>
+                    <h2 id="design-title">Design</h2>
+                    <span class="span-2"></span>
+                </div><!--title-->
+
+                <div class="design-flex">
+                    <div class="design-box-1">
+                        <div class="design-1"></div>
+                        <div class="design-2"></div>
+                    </div>
+
+                    <div class="design-box-2">
+                        <div class="design-3"></div>
+                        <div class="design-4"></div>
+                    </div>
+                </div><!--design-flex-->
+            </div><!--design-->
+        </div><!--container-->
+
+		<div id="modal" class="modal-1">
+			<div id="modalUp" class="modalUp-1">
+				<h2 id="upTitle" class="upTitle-1">디자인1 제목</h2>
+				<p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+				<div id="closeBtn" class="closeBtn-1">X</div>
+			</div><!-- modalUp -->
+		</div><!-- modal-1 -->
+
+		<div id="modal" class="modal-2">
+			<div id="modalUp" class="modalUp-2">
+				<h2 id="upTitle" class="upTitle-2">디자인2 제목</h2>
+				<p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+				<div id="closeBtn" class="closeBtn-2">X</div>
+			</div><!-- modalUp -->
+		</div><!-- modal-2 -->
+
+        <div id="modal" class="modal-3">
+			<div id="modalUp" class="modalUp-3">
+				<h2 id="upTitle" class="upTitle-3">디자인3 제목</h2>
+				<p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+				<div id="closeBtn" class="closeBtn-3">X</div>
+			</div><!-- modalUp -->
+		</div><!-- modal-3 -->
+
+        <div id="modal" class="modal-4">
+			<div id="modalUp" class="modalUp-4">
+				<h2 id="upTitle" class="upTitle-4">디자인4 제목</h2>
+				<p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+				<div id="closeBtn" class="closeBtn-4">X</div>
+			</div><!-- modalUp -->
+		</div><!-- modal-4 -->
+
+        <!------web-1------>
+        <div class="web-1">
+            <div class="container">
+                <div class="title">
+                    <span class="span-1"></span>
+                    <h2 id="web-title">Web</h2>
+                    <span class="span-2"></span>
+                </div><!--title-->
+            </div><!--container-->
+
+            <div class="web-box">
+                <div class="web-img-1">
+                    <img src="./image/web_group_img.png" alt="그룹포폴이미지 피시">
+                </div>
+                <div class="web-img-2">
+                    <img src="./image/web_group_img_t.png" alt="그룹포폴이미지 태블릿">
+                </div>
+                <div class="web-img-3">
+                    <img src="./image/web_group_img_m.png" alt="그룹포폴이미지 모바일">
+                </div>
+                
+                <div class="group-text">
+                    <h3>Music Site 단체포폴</h3>
+                    <br><br>
+                    <p>
+                        자신의 좋아하는 음악을 다양한 사람들과 소통과 공유하는<br>
+                        SPREAD 사이트 입니다.<br>
+                        <br>
+                        참여 인원 : 총 3명<br>
+                        디자인 : 90% 퍼블리싱 : 40%<br>
+                    </p>
+                    <br><br><br><br>
+                    <div class="web-button">
+                        <a href="#">데스크탑</a>
+                        <a href="#">태블릿</a>
+                        <a href="#">모바일</a>
+                    </div><!--web-button-->
+                </div><!--web-text-->
+            </div><!--web-box-->
+
+            <div class="container" id="gallery">
+                <ul id="scroller" class="slide-1">
+                    <li class="web-img-1"><img src="./image/haribo_1.png" alt=""></li>
+                    <li class="web-img-2"><img src="./image/haribo_2.png" alt=""></li>
+                    <li class="web-img-3"><img src="./image/haribo_3.png" alt=""></li>
+                    <li class="web-img-4"><img src="./image/menu_d.jpg" alt=""></li>
+                    <li class="web-img-5"><img src="./image/menu_v.jpg" alt=""></li>
+                </ul><!--web-img-box-->
+            </div><!--container-->
+        </div><!--web-->
+
+        <div class="web-1">
+            <div class="web-box">
+                <div class="web-img-1">
+                    <img src="./image/web_individual_img.png" alt="개인포폴이미지 피시">
+                </div>
+                <div class="web-img-2">
+                    <img src="./image/web_individual_img_t.png" alt="개인포폴이미지 태블릿">
+                </div>
+                <div class="web-img-3">
+                    <img src="./image/web_individual_img_m.png" alt="개인포폴이미지 모바일">
+                </div>
+                
+                <div class="individual-text">
+                    <h3>Portfolio Site 개인포폴</h3>
+                    <br><br>
+                    <p>
+                        설명입니다 설명입니다 설명입니다 설명입니다 설명입니다<br>
+                        설명입니다 설명입니다 설명입니다 설명입니다 설명입니다<br>
+                        설명입니다 설명입니다 설명입니다 설명입니다 설명입니다<br>
+                        설명입니다 설명입니다 설명입니다 설명입니다 설명입니다<br>
+                        설명입니다 설명입니다 설명입니다 설명입니다<br>
+                    </p>
+                    <br><br><br><br>
+                    <div class="web-button">
+                        <a href="#">데스크탑</a>
+                        <a href="#">태블릿</a>
+                        <a href="#">모바일</a>
+                    </div><!--web-button-->
+                </div><!--web-text-->
+            </div><!--web-box-->
+
+            <div class="container" id="gallery">
+                <ul id="scroller" class="slide-2">
+                    <li class="web-img-1"><img src="./image/haribo_1.png" alt=""></li>
+                    <li class="web-img-2"><img src="./image/haribo_2.png" alt=""></li>
+                    <li class="web-img-3"><img src="./image/haribo_3.png" alt=""></li>
+                    <li class="web-img-4"><img src="./image/menu_d.jpg" alt=""></li>
+                    <li class="web-img-5"><img src="./image/menu_v.jpg" alt=""></li>
+                </ul><!--web-slide-->
+            </div><!--container-->
+        </div><!--web-->
+
+        <div class="web-bar"></div>
+
+        <!------web-2------>
+        <div class="container">
+            <div class="web-2">
+                <div class="web-2-box">
+                    <div class="box-1">
+                        <img src="" alt="">
+                    </div>
+    
+                    <div class="box-2">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+
+                    <div class="text-box">
+                        <h3>자바스크립트</h3>
+                        <br><br>
+                        <p>
+                            날짜 : 2020 08 10<br>
+                            사용프로그램 : <img src="./image/icon_scss.png" alt="세스아이콘"> <img src="./image/icon_html.png" alt="html아이콘"> <img src="./image/icon_css.png" alt="css아이콘"> <img src="./image/icon_js.png" alt="자바스크립트아이콘"><br>
+                            <br>
+                            자바스크립트를 이용한 코딩 포폴입니다.
+                        </p>
+                    </div>
+                </div><!--haribo-flex-->
+
+                <div class="web-2-box">
+                    <div class="box-1">
+                        <img src="./image/haribo_1.png" alt="하리보메인이미지">
+                    </div>
+    
+                    <div class="box-2">
+                        <img src="./image/haribo_2.png" alt="하리보하단이미지">
+                        <img src="./image/haribo_3.png" alt="하리보제품이미지">
+                    </div>
+
+                    <div class="text-box">
+                        <h3>haribo 클론 코딩</h3>
+                        <br><br>
+                        <p>
+                            날짜 : 2020 07 20<br>
+                            사용프로그램 : <img src="./image/icon_scss.png" alt="세스아이콘"> <img src="./image/icon_jquery.png" alt="제이쿼리아이콘"> <img src="./image/icon_html.png" alt="html아이콘"> <img src="./image/icon_css.png" alt="css아이콘"><br>
+                            <br>
+                            아이들과 어른들을 위해 다채롭고 다양한 젤리를 만드는 곳 최고의 원료, 오리지널<br>
+                            레시피와 엄격한 관리를 고수하는 하리보를 클론 코딩 하였습니다.<br>
+                        </p>
+                    </div>
+                </div><!--haribo-flex-->
+            </div><!--web-haribo-->
+        </div><!--container-->
+
+
+
+        <!------video------>
+        <div class="container">
+            <div class="video">
+                <div class="title">
+                    <span class="span-1"></span>
+                    <h2 id="video-title">Video</h2>
+                    <span class="span-2"></span>
+                </div><!--title-->
+
+                <div class="video-box">
+                    <div class="video">
+                        <video controls>
+                            <source src="./media/프리미어_김혜령.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="video-text">
+                        <br>
+                        <h3>에프터이펙트 영상</h3>
+                        <p>
+                            <br>
+                            날짜 : 2020 07 30<br>
+                            사용프로그램 : <img src="./image/icon_ae.png" alt="에프터이펙트아이콘"><br>
+                            <br>
+                            영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다<br>
+                            영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다 영상설명입니다<br>
+                        </p>
+                    </div><!--video-text-->
+                </div><!--video-box-->
+            </div><!--video-->
+        </div><!--container-->
+
+        <div class="bar"></div>
+
+        <div class="container">
+            <div class="video">
+                <div class="video-box">
+                    <div class="video">
+                        <video controls>
+                            <source src="./media/프리미어_김혜령.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="video-text">
+                        <br>
+                        <h3>프리미어 영상</h3>
+                        <p>
+                            <br>
+                            날짜 : 2020 06 10<br>
+                            사용프로그램 : <img src="./image/icon_pr.png" alt="프리미어프로아이콘"><br>
+                            <br>
+                            영상 색감 보정과 크롭을 이용하여 모듈을 짜고 음향 크기를 조정했습니다.<br>
+                            마스크, 트랙 매트키와 울트라 키를 이용하여 이미지 편집을 하여 NUNO MAZONI 영상을 제작했습니다.<br>
+                        </p>
+                    </div><!--video-text-->
+                </div><!--video-box-->
+            </div><!--video-->
+        </div><!--container-->
+            </div><!--video-->
+        </div><!--container-->
+    </main>
+
+
+
+    <!-------------------- footer -------------------->
+    <footer>
+        <div class="container">
+            <strong>Kim Hey rong Designer Portfolio</strong>
+            <br><br>
+            <div class="footer-text">
+                <p>｜ &nbsp;&nbsp;주소 : 서울시 영등포구 신길동 317-1&nbsp;&nbsp;&nbsp;</p>
+                <p>｜ &nbsp;&nbsp;전화 : 010-9059-4507&nbsp;&nbsp; ｜ &nbsp;&nbsp;이메일 : khr9059@naver.com</p>
+            </div>
+        </div>
+
+        <div id="top-bt">
+            <a href="#">▲</a>
+        </div><!--top-->
+    </footer>
+</body>
+</html>
